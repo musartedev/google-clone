@@ -108,6 +108,11 @@ input {
     color: #5F6368;
 }
 
+.buttons button:hover {
+    color: #5F6368;
+    box-shadow: 1px 1px 1px 1px #c6c6c6;
+}
+
 .buttons button:first-of-type {
     grid-row: button1;
 }
@@ -150,7 +155,7 @@ input {
 .foot-links {
     grid-area: foot-links;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
 }
 
 .foot-links-left {
@@ -169,4 +174,32 @@ input {
 
 .foot-links > ul > li>  a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+    .footer {
+        grid-template-areas: "foot-country"
+                             "foot-links";
+    }
+
+    .foot-links {
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+        padding-bottom: 10px;
+    }
+
+    .foot-links > * {
+        justify-content: start;
+        padding: 3px;
+    }
+
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main-form {
+        width: 400px;
+    }
 }
