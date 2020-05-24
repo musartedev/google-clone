@@ -76,7 +76,7 @@ input {
 
 .main-form:hover {
     border-color: #dfe1e5;
-    box-shadow: 0 1px 6px 0 #d5d7da;
+    box-shadow: 0 1px 6px #d5d7da;
 }
 
 .main-form span img {
@@ -85,9 +85,9 @@ input {
 
 .main-form input {
     width: 100%;
-    /* background-color: red; */
     height: 100%;
     padding: 0 10px;
+    font-size: 15px;
 }
 
 .buttons {
