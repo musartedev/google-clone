@@ -4,4 +4,4 @@ Este proyecto es una práctica del [Curso Práctico de HTML y CSS](https://platz
 
 No se copió exactamente el código del profesor, ya que apliqué los conocimientos aprendidos en el [Curso de CSS Grid Layout](https://platzi.com/clases/css-grid-layout/)
 
-[DEMO](https://musenberg404.github.io/google-clone/)
+[DEMO](https://musartedev.github.io/google-clone/)
